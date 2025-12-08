@@ -1,7 +1,12 @@
 #!/bin/bash
+# build.sh - Script to build Docker image
 
-docker build -t ritvin0618/dev:latest .
+# Step 1: Print starting message
+echo "Building Docker image..."
 
-docker tag ritvin0618/dev:latest ritvin0618/prod:latest
+# Step 2: Build the Docker image
+docker-compose build
 
+# Step 3: Print success message
+echo "Docker image built successfully!"
 
