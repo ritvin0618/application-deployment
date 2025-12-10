@@ -10,3 +10,4 @@ docker-compose build
 # Step 3: Print success message
 echo "Docker image built successfully!"
 
+# new line for testing jenkins
